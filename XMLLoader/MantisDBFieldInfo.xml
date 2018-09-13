@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <DisplayName Name="ID">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>id</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>None</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="プロジェクト">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>project_id</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>ConversionList</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="担当者">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>handler_id</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>ConversionList</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="ステータス">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>status</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>ConversionList</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="解決状況">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>resolution</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>ConversionList</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="カテゴリー">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>category_id</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>ConversionList</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="発生バージョン">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>version</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>None</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="要約">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>summary</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="詳細">
+    <TableName>mantis_bug_text_table</TableName>
+    <ColumnName>description</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="再現方法">
+    <TableName>mantis_bug_text_table</TableName>
+    <ColumnName>steps_to_reproduce</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="追加情報">
+    <TableName>mantis_bug_text_table</TableName>
+    <ColumnName>additional_information</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="期待値">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>3</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="原因">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>15</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="対応内容">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>16</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="ソフトウェアの変更内容の検証方法">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>91</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="影響範囲">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>17</CustomFieldID>
+    <RepalcingGroup>STRING</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="修正予定バージョン">
+    <TableName>mantis_bug_table</TableName>
+    <ColumnName>target_version</ColumnName>
+    <CustomFieldID>NULL</CustomFieldID>
+    <RepalcingGroup>None</RepalcingGroup>
+  </DisplayName>
+  <DisplayName Name="発生日">
+    <TableName>mantis_custom_field_string_table</TableName>
+    <ColumnName>value</ColumnName>
+    <CustomFieldID>1</CustomFieldID>
+    <RepalcingGroup>DATE</RepalcingGroup>
+  </DisplayName>
+</root>
